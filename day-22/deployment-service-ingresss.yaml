@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: game-2048
+  name: game-2048  #we are creating a namespace 'game-2048' to deploy our deployment, service and ingress resources
 ---
 apiVersion: apps/v1
 kind: Deployment
